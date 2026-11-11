@@ -1,0 +1,19 @@
+# Build output
+/build_rel/
+/build_prof/
+/build*/
+compile_commands.json
+
+# Toolchain (fetched by setup-toolchain.ps1, not part of the repo)
+/tools/
+
+# Sony firmware images and NAND dumps -- never commit these; see README.md
+*.PBP
+*.img
+*.bin
+
+# The real console fuse ID / per-console settings
+config/psp-lle.ini
+
+# Scratch / diagnostic output
+/scratch/*
