@@ -27,8 +27,6 @@ build) boots all the way to a rendered, live, interactive XMB — confirmed visu
 (framebuffer dump + a live Win32 window), with a real ported ME (Media Engine) core and real
 audio RPC traffic. Since then:
 
-- A real EBOOT (FasterARK) decrypts, loads, runs to completion from the XMB, and performs
-  its own real apiType 0x210 (Exit Game / warm VSH) reboot back out.
 - The VFPU's register addressing/prefix machinery and its non-transcendental
   arithmetic/data-movement instruction set are implemented (transcendentals — sin/cos/sqrt/
   log2/exp2/... — are not yet; real hardware's lookup tables are needed for exactness).
